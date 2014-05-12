@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-countdown/1.6.3/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+/* http://keith-wood.name/countdown.html
+   French initialisation for the jQuery countdown extension
+   Written by Keith Wood (kbwood{at}iinet.com.au) Jan 2008. */
+
+$(function () {
+        var newYear = new Date(); 
+        newYear = new Date(newYear.getFullYear() + 1, 1 - 1, 1); 
+        $('#countdown').countdown({until: newYear}); 
+        });
+</script>
+<style>
+
+
+</style>
+
+</head>
+
+<body>
+<h1>aaaa</h1>
+<div id="countdown">
+</div>
+
+
+</body>
+</html>
